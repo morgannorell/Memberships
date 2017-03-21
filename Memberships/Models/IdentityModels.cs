@@ -42,5 +42,7 @@ namespace Memberships.Models
         public DbSet<Item> Items { get; set; }
 
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<ProductType> ProductTypes { get; set; }
     }
 }
